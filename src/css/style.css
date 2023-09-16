@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: auto;
+  }
+
+  body {
+    background-color: #e50914;
+  }
+
+  .painel {
+    margin: 56px auto;
+    width: 400px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .painel audio {
+    width: 70%;
+  }
+
+  .casar {
+    margin-top: 10px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  #sim {
+    width: 60px;
+    height: 40px;
+    background-color: #e50914;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: -88px;
+  }
+
+  #nao {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: #e50914;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 30px;
+  }

@@ -1,0 +1,26 @@
+@media (max-width: 414px) {
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  .painel {
+    width: 90%;
+  }
+
+  .happy-valentines .valentines-day-card {
+    width: 96vw;
+    height: 40vh;
+  }
+
+  .text,
+  span {
+    display: grid;
+    font-size: 18px;
+    align-items: center;
+    right: -22px;
+  }
+}

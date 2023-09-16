@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia dos Namorados</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="icon" href="./src/img/coracao.png" />
+  </head>
+  <body>
+    <main class="painel">
+      <h1 class="titulo">Feliz Dia dos Namorados</h1>
+      <audio class="audio" src="./src/audio/yousay.mp3" controls autoplay loop></audio>
+      <!-- Tem navegadores que não rodam o background-music, por isso coloquei o "controls"-->
+      <audio id="background-music" src="./src/audio/yousay.mp3" preload="auto" loop></audio>
+      <a href="./src/img/carta.jpg"> <img src="./src/img/noivos.gif" alt="noivos" /></a>
+      <h2 class="casar">Aceita casar Comigo?</h2>
+      <h3>我爱你</h3>
+      <a href="./index2.html"><button id="sim">Sim</button></a>
+      <a href="./src/img/triste.gif"><button onmouseover="fuja()" id="nao">Não</button></a>
+    </main>
+    <footer>
+      <p class="copyright">Developed by Ezequiel lee</p>
+    </footer>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
