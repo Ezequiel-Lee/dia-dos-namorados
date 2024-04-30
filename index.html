@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<meta property="og:title" content="Dia dos Namorados" />
+        <meta property="og:description" content="Pedido de Casamento animado com música" />
+        <meta property="og:image" content="https://ezequiel-lee.github.io/dia-dos-namorados/img/menu.png" />
+        <meta property="og:url" content="https://ezequiel-lee.github.io/dia-dos-namorados/" />
+        <meta property="og:type" content="website" />
+
+		<title>Dia dos Namorados - Developed by Ezequiel Lee</title>
+
+		<link rel="stylesheet" href="./css/keyframes.css">
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/responsive.css" />
+		<link rel="icon" href="./img/coracao.png" />
+    </head>
+
+    <body onclick="audio.play()">
+
+		<audio id="musica" src="" autoplay loop></audio>
+
+		<div class="background"></div>
+
+		<nav class="pulse">
+			<img src="./img/pulse.gif" alt="Coração">
+		</nav>
+		<section class="container">
+			<main class="painel">
+				<div class="content">
+					<h1 class="titulo">
+						Feliz dia dos Namorados
+					</h1>
+
+					<a href="./img/carta.jpg"><img class="foto" src="./img/noivos.gif" alt="noivos" /></a>
+
+					<h2 class="casar">
+						Aceita casar Comigo?
+					</h2>
+
+					<div class="buttons">
+						<a href="./sim.html"><button id="sim">Sim</button></a>
+						<a href="./img/triste.gif"><button onmouseover="btnFujao()" id="nao">Não</button></a>
+					</div>
+				</div>
+			</main>
+		</section>
+
+		<script src="./js/script.js"></script>
+    </body>
+</html>

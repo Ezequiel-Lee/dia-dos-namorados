@@ -1,0 +1,91 @@
+@media (min-width: 360px) and (max-width: 767px) {
+    
+    .painel {
+        margin-top: 60px;
+        width: 20rem;
+        height: 28rem;
+    }
+
+    .content img {
+        width: 13rem;
+        height: 12rem;
+        margin: 20px;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1365px) {
+
+    .painel {
+        margin-top: 194px;
+    }
+}
+
+
+@media (min-width: 1366px) and (max-width: 2559px) {
+
+    .pulse img {
+    width: 80px;
+    top: 28px;
+    left: 38px;
+    }
+
+}
+
+@media (min-width: 2560px) {
+
+    .painel {
+        margin-top: 144px;
+        width: 42rem;
+        height: 48rem;
+        border-radius: 40px;
+    }
+
+    .painel .content h1 {
+        font-size: 4rem;
+    }
+
+    .painel .content img {
+        width: 260px;
+        height: 300px;
+    }
+
+    .painel .content h2 {
+        font-size: 3rem;
+    }
+
+    .painel .buttons {
+        padding: 1.5rem;
+    }
+
+    #sim {
+        font-size: 1.5rem;
+        height: 72px;
+        width: 120px;
+        margin-right: 190px;
+    }
+
+    #nao {
+        font-size: 1.5rem;
+        height: 72px;
+        width: 120px;
+        margin-left: -120px;
+    }
+
+    section .clique {
+        height: 50px;
+    }
+
+    .pulse img {
+        position: absolute;
+        width: 120px;
+        top: 40px;
+        left: 40px;
+    }
+
+}
